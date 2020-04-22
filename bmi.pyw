@@ -4,12 +4,13 @@ from tkinter import *
 class Bmi:
 
     def __init__(self, root):
-        root.title('BODY MASS INDEX CALCULATOR (B.M.I)')
-        root.geometry('1000x650+0+0')
-        root.config(background='#037bfc')
-        title_lable = Label(root, text='METRIC FORMULA', font='arial 13 bold')
-        title_lable.grid(row=0, column=0)
-        root.iconbitmap('C:/Users/user/Desktop/bmi calculator/bmi.ico ')
+        sel.root=root
+        self.root.title('BODY MASS INDEX CALCULATOR (B.M.I)')
+        self.root.geometry('1000x650+0+0')
+        self.root.config(background='#037bfc')
+        self.title_lable = Label(root, text='METRIC FORMULA', font='arial 13 bold')
+        self.title_lable.grid(row=0, column=0)
+        self.root.iconbitmap('C:/Users/user/Desktop/bmi calculator/bmi.ico ')
 
         # =====================================VARIABLES============================================#
         # ===metric bmi calculation variables======#
